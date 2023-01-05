@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Stortassens Kennel</title>
+    </head>
+    <body>
+        <article>
+            <h1>Stortassens Kennel</h1>
+            <section class="container">
+                <section class="item dogs">
+                    <h2>Hundar</h2>
+                    <div class="dog-buttons"></div>
+                </section>
+                <section class="item add-dog">
+                    <h2>Lägg till hund</h2>
+                    <div>
+                        <form class="add-dog-form">
+                            <input type="text" placeholder="Namn" />
+                            <input type="text" placeholder="Ras" />
+                            <input type="text" placeholder="Ålder" />
+                            <button class="add-button">Spara</button>
+                        </form>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <div class="item dog-info">
+                    <h2>Hund Info</h2>
+                    <div class="dog-info-box"></div>
+                    <!-- <img src="" alt="" /> -->
+                    <div class="dog-info-buttons"></div>
+                    <div class="dog-info-edit-form hidden">
+                        <form class="dog-edit-form">
+                            <ul>
+                                <li>
+                                    <label>Namn</label>
+                                    <input type="text" class="edit-dog-name" />
+                                </li>
+                                <li>
+                                    <button class="edit-save-button">
+                                        Spara
+                                    </button>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <script src="kennel.js"></script>
+    </body>
+</html>
